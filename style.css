@@ -1,7 +1,7 @@
 
 .container {
       display: grid;
-      grid-template-rows: repeat(auto, 8);
+      grid-template-rows: repeat(auto, 9);
       grid-template-columns: 100%;
       background-color: #F6F4F7;
 }
@@ -22,9 +22,15 @@
    grid-template-rows: 724px 581px;
 }
 
+.ad-membership {
+   grid-row: 3/ 3;
+   height: 520px;
+   background-color: grey;
+}
+
 .grid-articles {
    display: grid;
-   grid-row: 3/ 3;
+   grid-row: 4/ 4;
    grid-column: 1/1;
    grid-template-columns: 1fr 1fr 1fr;
    height: 2855px;
@@ -34,7 +40,7 @@
 
 .blue-separators { 
    display: grid;
-   grid-row: 4/ 4;
+   grid-row: 5/ 5;
    grid-column: 1/1;
    height: 904px;
    background-color: #1B71BB;
@@ -42,8 +48,8 @@
 }
 
 .testimonials {
-     display: grid;
-   grid-row: 5/ 5;
+   display: grid;
+   grid-row: 6/ 6;
    grid-column: 1/1;
    height: 1735px;
    grid-template-columns: 1fr 1fr;
@@ -53,7 +59,7 @@
 
 .red-thin-separator {
    display: grid;
-   grid-row: 6/ 6;
+   grid-row: 7/ 7;
    grid-column: 1/1;
    height:  411px;
    background-color: #D33A2C;
@@ -62,7 +68,7 @@
 
 .guides-grid {
    display: grid;
-   grid-row: 7/ 7;
+   grid-row: 8/ 8;
    grid-column: 1/1;
    height: 1576px;
    grid-template-columns: 1fr 1fr;
@@ -72,7 +78,7 @@
 
 .footer {
    display: grid;
-   grid-row: 8/ 8;
+   grid-row: 9 / 9;
    grid-column: 1/1;
    height: 676px;
    background-color: #D33A2C;
