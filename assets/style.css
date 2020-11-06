@@ -1,7 +1,7 @@
 
 .container {
       display: grid;
-      grid-template-rows: repeat(8, auto);
+      grid-template-rows: repeat(9, auto);
       grid-template-columns: 100%;
       background-color: rgb(240, 240, 240);
 }
@@ -45,15 +45,6 @@
 
 /* FEATURED */
 
-/* SHADES OF GREY
-   background-color: rgb(50, 50, 50);
-   background-color: rgb(100, 100, 100);
-   background-color: rgb(150, 150, 150);
-   background-color: rgb(200, 200, 200);
-   background-color: rgb(230, 230, 230);
-   background-color: rgb(240, 240, 240);
-*/
-
 .featured-articles {
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -85,30 +76,157 @@
    
 }
 
-.featured-img-name {
+.featured-img-name1 {
    height: 86px;
+   display: inline-flex;
+   margin-top: 200px;
+   margin-left: 50px;
 }
 
-.featured-title {
-   height: 200px;
-   background-color: rgb(170, 36, 36);
-
+.featured-img1 {
+   height: 100%;
+   width: 86px;
+   background-color: rgb(150, 150, 150);
 }
-.featured-tag {
-   height: 50px;
+
+.featured-name1 {
+   width: 226px;
+   height: 20px;
+   margin-top: 33px;
+   background-color: rgb(200, 200, 200);
+   margin-left: 20px;
+}
+
+.featured-title1 {
+   height: 100px;
+   width: 478px;
+   background-color: rgb(100, 100, 100);
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+.featured-tag1 {
+   display: inline-flex;
+   height: 28px;
+   width: 65px;
    background-color: rgb(230, 230, 230);
+   margin-left: 50px;
+   margin-top: 45px;
 }
 
-.featured-img {
-
+.featured-icon1 {
+   height: 28px;
+   width: 70px;
+   background-color: rgb(230, 230, 230);
+   margin-left: 50px;
+   margin-top: 150px;
 }
 
+.featured-img-name2 {
+   height: 86px;
+   display: inline-flex;
+   margin-top: 50px;
+   margin-left: 50px;
+}
+
+.featured-img2 {
+   height: 100%;
+   width: 86px;
+   background-color: rgb(150, 150, 150);
+}
+
+.featured-name2 {
+   width: 226px;
+   height: 20px;
+   background-color: rgb(200, 200, 200);
+   margin-top: 33px;
+   margin-left: 20px;
+}
+
+.featured-title2 {
+   height: 150px;
+   width: 478px;
+   background-color: rgb(100, 100, 100);
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+.featured-tag2 {
+   display: inline-flex;
+   height: 28px;
+   width: 65px;
+   background-color: rgb(230, 230, 230);
+   margin-left: 50px;
+   margin-top: 45px;
+}
+
+.featured-icon2 {
+   height: 28px;
+   width: 60px;
+   background-color: rgb(230, 230, 230);
+   margin-left: 50px;
+   margin-top: 120px;
+}
+
+/* AD-MEMBERSHIP */
+
+/* SHADES OF GREY
+   background-color: rgb(50, 50, 50);
+   background-color: rgb(100, 100, 100);
+   background-color: rgb(150, 150, 150);
+   background-color: rgb(200, 200, 200);
+   background-color: rgb(230, 230, 230);
+   background-color: rgb(240, 240, 240);
+*/
+
+.ad-membership {
+   grid-row: 3/ 3;
+   grid-column: 1/1;
+   background-color: rgb(230, 230, 230);
+   height: 475px;
+}  
+
+.ad-p {
+   display: inline-flex;
+   width: 650px;
+   height: 100px;
+   background-color: rgb(200, 200, 200);
+   margin-top: 40px;
+   margin-bottom: 20px;
+   margin-left: 120px;
+}
+
+.ad-list {
+   display: inline-flex;
+   width: 420px;
+   height: 50px;
+   background-color: rgb(200, 200, 200);
+   margin-top: 0;
+   margin-left: 160px;
+}
+
+.ad-button {
+   width: 420px;
+   height: 80px;
+   background-color: rgb(100, 100, 100);
+   margin-top: 30px;
+   margin-left: 160px;
+}
+
+.ad-img {
+   display: inline-flex;
+   height: 322px;
+   width: 250px;
+   background-color: rgb(100, 100, 100);
+   margin-top: -600px;
+   margin-left: 400px;
+}
 
 /* GRID */
 
 .grid-articles {
    display: grid;
-   grid-row: 3/ 3;
+   grid-row: 4/4;
    grid-column: 1/1;
    grid-template-columns: 1fr 1fr 1fr;
    height: 2855px;
@@ -118,7 +236,7 @@
 
 .blue-separators { 
    display: grid;
-   grid-row: 4/ 4;
+   grid-row: 5/ 5;
    grid-column: 1/1;
    height: 904px;
    background-color: #1B71BB;
@@ -127,7 +245,7 @@
 
 .testimonials {
      display: grid;
-   grid-row: 5/ 5;
+   grid-row: 6/6;
    grid-column: 1/1;
    height: 1735px;
    grid-template-columns: 1fr 1fr;
@@ -137,7 +255,7 @@
 
 .red-thin-separator {
    display: grid;
-   grid-row: 6/ 6;
+   grid-row: 7/7;
    grid-column: 1/1;
    height:  411px;
    background-color: #D33A2C;
@@ -146,7 +264,7 @@
 
 .guides-grid {
    display: grid;
-   grid-row: 7/ 7;
+   grid-row: 8/ 8;
    grid-column: 1/1;
    height: 1576px;
    grid-template-columns: 1fr 1fr;
@@ -156,7 +274,7 @@
 
 .footer {
    display: grid;
-   grid-row: 8/ 8;
+   grid-row: 9/9;
    grid-column: 1/1;
    height: 676px;
    background-color: #D33A2C;
