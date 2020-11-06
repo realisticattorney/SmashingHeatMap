@@ -7,12 +7,11 @@ This project aims to build a heatmap of the smashingmagazine.com's homepage usin
 ## Built With
 
 - HTML 
-- CSS layouts(flexbox and grid)
+- CSS layouts (flexbox and grid)
 
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/realisticattorney/SmashingHeatMap/feature/index.html) 
-
 
 ## Getting Started
 
@@ -29,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 https://github.com/realisticattorney/SmashingHeatMap.git
 ```
 
-2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
+2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server".
 
 3- Everything should be running by now. 
 
@@ -51,8 +50,7 @@ https://github.com/realisticattorney/SmashingHeatMap.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]
-(https://github.com/realisticattorney/SmashingHeatMap/issues)
+Feel free to check the [issues page](https://github.com/realisticattorney/SmashingHeatMap/issues/)
 
 ## Show your support
 
@@ -60,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE)
+This project is [MIT](./LICENSE).
