@@ -6,13 +6,52 @@
       background-color: #F6F4F7;
 }
 
+/* SHADES OF GREY
+   background-color: rgb(50, 50, 50);
+   background-color: rgb(100, 100, 100);
+   background-color: rgb(150, 150, 150);
+   background-color: rgb(200, 200, 200);
+   background-color: rgb(240, 240, 240);
+*/
+
+
+
+/* HEADER */
 
 .header {
    display: flex;
+   align-content: center;
+   justify-content: space-evenly;
    grid-row: 1/1;
    height: 103px;
-   background-color: #D33A2C;
+   /* background-color: #D33A2C; */
 }
+
+.header-logo {
+   background-color: rgb(100, 100, 100);
+   width: 214px;
+   height: 82px;
+}
+
+.header div {
+   background-color: rgb(200, 200, 200);
+   width: 100px;
+   height: 50px;
+}
+
+.header-cat {
+   background-color: rgb(150, 150, 150);
+   width: 100px;
+   height: 50px;
+}
+
+.header-input{
+   background-color: rgb(100, 100, 100);
+   width: 350px;
+   height: 55px;
+}
+
+/* FEATURED */
 
 .featured-articles {
    display: grid;
