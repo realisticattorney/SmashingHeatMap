@@ -702,6 +702,7 @@ body {
   align-items: center;
   grid-row: 9/9;
   grid-column: 1/1;
+  row-gap: 10px;
   height: 676px;
   background-color: rgb(200, 200, 200);
   grid-template-columns: auto auto;
@@ -716,10 +717,20 @@ body {
 }
 
 .footer-articles-list {
-  width: 1300px;
-  height: 210px;
-  background-color: rgb(100, 100, 100);
-  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 20px;
+  height: auto;
+  width: 80%;
+  margin-bottom: 60px;
+}
+
+.footer-articles-list-a  {
+  background-color: rgb(220, 220, 220);
+  width: 100px;
+  height: 25px;
 }
 
 .footer-articles-p1 {
@@ -730,17 +741,34 @@ body {
 }
 
 .footer-articles-p2 {
-  width: 490px;
+  /* width: 490px;
   height: 40px;
   background-color: rgb(150, 150, 150);
-  margin-bottom: 16px;
+  margin-bottom: 16px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 120px);
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 20px;  
+  height: auto;
+  width: 40%;
 }
 
 .footer-articles-p3 {
-  width: 370px;
-  height: 40px;
-  background-color: rgb(150, 150, 150);
-  margin-bottom: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  justify-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 20px;  
+  height: auto;
+  width: 40%;
+}
+
+.footer-articles-p3-a  {
+  background-color: rgb(220, 220, 220);
+  width: 110px;
+  height: 20px;
 }
 
 .footer-articles-button {
