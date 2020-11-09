@@ -727,7 +727,7 @@ body {
   margin-bottom: 60px;
 }
 
-.footer-articles-list-a  {
+.footer-articles-list-a {
   background-color: rgb(220, 220, 220);
   width: 100px;
   height: 25px;
@@ -749,7 +749,7 @@ body {
   grid-template-columns: repeat(auto-fill, 120px);
   justify-content: center;
   column-gap: 10px;
-  row-gap: 20px;  
+  row-gap: 20px;
   height: auto;
   width: 40%;
 }
@@ -760,12 +760,12 @@ body {
   justify-items: center;
   justify-content: center;
   column-gap: 10px;
-  row-gap: 20px;  
+  row-gap: 20px;
   height: auto;
   width: 40%;
 }
 
-.footer-articles-p3-a  {
+.footer-articles-p3-a {
   background-color: rgb(220, 220, 220);
   width: 110px;
   height: 20px;
